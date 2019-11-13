@@ -1,0 +1,12 @@
+zuul:
+  routes:
+    hiapi:
+      path: /hiapi/*
+      serviceId: eureka-client
+    ribbonapi:
+      path: /ribbbonapi/*
+      serviceId: eureka-ribbon-client
+    feignapi:
+      path: /feignapi/*
+      serviceId: feign-client
+  prefix: /v1

@@ -1,0 +1,8 @@
+# Project exclude paths
+/config_client/target/
+/config_server/target/
+/eureka_client/target/
+/eureka_feign_client/target/
+/eureka_ribbon_client/target/
+/eureka_server/target/
+/eureka_zuul_client/target/

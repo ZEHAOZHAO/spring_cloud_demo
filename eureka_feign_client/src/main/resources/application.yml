@@ -1,0 +1,15 @@
+
+server:
+  port: 8767
+spring:
+  application:
+    name: feign-client
+eureka-client:
+  ribbon:
+    listOfServers: 127.0.0.1:8763,127.0.0.1:8764
+ribbon:
+  eureka:
+    enabled: false
+feign:
+  hystrix:
+    enabled: true

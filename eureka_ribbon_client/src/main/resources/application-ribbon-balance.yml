@@ -1,0 +1,9 @@
+#ribbon 默认从eureka服务注册列表获取服务信息，可以关闭手动维护
+stores:
+  ribbon:
+    listOfServers: baidu.com,mi.com
+ribbon:
+  eureka:
+    enabled: false
+server:
+  port: 8766
