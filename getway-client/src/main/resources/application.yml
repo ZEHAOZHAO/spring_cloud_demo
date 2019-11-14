@@ -1,0 +1,20 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 10003
+spring:
+  application:
+    name: getway-client
+  zipkin:
+    base-url: http://localhost:10001
+  sleuth:
+    sampler:
+      percentage: 1.0 #默认是0.1
+zuul:
+  routes:
+    hiapi:
+      path: /hizipkin/*
+      serviceId: user-service
+

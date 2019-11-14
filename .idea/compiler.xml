@@ -10,9 +10,13 @@
         <module name="eureka_server" />
         <module name="eureka_client" />
         <module name="eureka_feign_client" />
+        <module name="config_server_ha" />
+        <module name="getway-client" />
+        <module name="user-service" />
         <module name="config_server" />
         <module name="eureka_ribbon_client" />
         <module name="config_client" />
+        <module name="zipkin_server" />
       </profile>
     </annotationProcessing>
   </component>

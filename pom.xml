@@ -16,6 +16,10 @@
         <module>eureka_zuul_client</module>
         <module>config_server</module>
         <module>config_client</module>
+        <module>config_server_ha</module>
+        <module>zipkin_server</module>
+        <module>user-service</module>
+        <module>getway-client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

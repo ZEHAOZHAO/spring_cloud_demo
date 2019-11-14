@@ -4,10 +4,14 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config_server_ha" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_feign_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_ribbon_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_zuul_client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/getway-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin_server" charset="UTF-8" />
   </component>
 </project>

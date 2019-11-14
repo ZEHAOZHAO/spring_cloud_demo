@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ZEHAOZHAO/springCloudConfig
+          searchPaths: respo
+          username: 787793569@qq.com
+          password: Q13626172055qq
+      label: master
+  application:
+    name: config-server
+server:
+  port: 8770

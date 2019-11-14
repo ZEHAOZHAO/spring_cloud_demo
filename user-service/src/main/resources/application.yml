@@ -1,0 +1,15 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 10002
+
+spring:
+  application:
+    name: user-service
+  zipkin:
+    base-url: http://localhost:10001
+  sleuth:
+    sampler:
+      percentage: 1.0 #默认是0.1
